@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">orthoo-ai</string>
+    <string name="app_tagline">Private AI assistant on your phone</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_pals">Pals</string>
+    <string name="nav_models">Models</string>
+    <string name="nav_benchmark">Benchmark</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">App Info</string>
+    <string name="new_chat">New Chat</string>
+    <string name="type_message_hint">Type your message here</string>
+    <string name="send_message">Send message</string>
+    <string name="stop_generation">Stop generation</string>
+    <string name="menu_open_drawer">Open navigation drawer</string>
+    <string name="mic_permission_rationale">Microphone permission is needed for voice dictation and hands-free voice mode.</string>
+</resources>

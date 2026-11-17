@@ -1,0 +1,12 @@
+*.iml
+.gradle/
+.idea/
+build/
+app/build/
+.cxx/
+*.apk
+*.aab
+.DS_Store
+captures/
+.navigation/
+.build-outputs/

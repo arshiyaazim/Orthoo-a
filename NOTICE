@@ -1,0 +1,57 @@
+orthoo-ai
+=========
+
+orthoo-ai is a standalone project. It is not published, endorsed or supported
+by the project its code came from, and it shares none of that project's
+servers, accounts, signing keys or store listings.
+
+
+Origin of the code
+------------------
+
+The source derives from PocketPal AI 1.23.0 by Asghar Ghorbani, released under
+the MIT License. That license requires its copyright and permission notice to
+stay with copies of the software, so LICENSE keeps the line
+"Copyright (c) 2024 Asghar Ghorbani" unchanged. If you want to claim your own
+changes, add your own copyright line to LICENSE next to it; do not remove it.
+
+
+Names and artwork
+-----------------
+
+The PocketPal name, logo and mascot artwork are not part of orthoo-ai: the
+name, the launcher icons (Android and iOS), the splash mark and the in-app mark
+were replaced with original artwork (see scripts/app-icon/). The MIT License
+does not grant rights to another project's name or logos. A few inherited
+in-app illustrations remain, for example the "Pip" character on the last
+onboarding screen, and the screenshots in assets/ show the original app's
+interface. Replace them if you want fully original artwork.
+
+
+Pieces that still come from the original author's namespace
+------------------------------------------------------------
+
+Nothing in orthoo-ai needs the original project's servers, and no feature is
+locked behind them. Two things still come from the original author's
+namespace and are worth mirroring or replacing for full independence:
+
+- npm packages @pocketpalai/react-native-speech and
+  @pocketpalai/react-native-speech-phonon. They drive text-to-speech and are
+  installed from the public npm registry under their own licenses
+  (node_modules/<package>/LICENSE after `yarn install`, and the in-app
+  "Open-source notices" screen).
+- Hugging Face repositories under palshub/ (phonemizer-dicts,
+  kitten-tts-nano-0.8-fp32, phonon-31m-en-coreml). Some voices download them
+  on demand. They are public and carry their own licenses. Their locations are
+  listed in src/services/tts/constants.ts.
+
+Internal database names that still contain "palshub" (WatermelonDB tables and
+the Pal.source field) are identifiers only. They make no network requests.
+
+
+Other open-source components
+----------------------------
+
+llama.cpp, whisper.cpp, ONNX Runtime, React Native and the other libraries
+listed in package.json are used under their own licenses. The in-app
+"Open-source notices" screen lists the ones bundled with the app.
